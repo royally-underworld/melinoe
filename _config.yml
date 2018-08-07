@@ -1,7 +1,7 @@
 # Site settings
-title: Grayscale
-email: your-email@domain.com
-url: https://example.github.io
+title: UNDERWORLD
+email: info@underworldfetnites.com
+url: https://underworldfetishnights.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 # Color settings (hex-codes without the leading hash-tag)
@@ -9,22 +9,23 @@ color:
   primary-dark: '#000000'
   links: '#219ab3'
 
+# give me dat font
+assets:
+   sources:
+       -_assets/fonts
+
 # Footer settings
-footer: Your Website
+footer: Underworld Fetish Nights
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/SBootstrap
+  - title: fetlife
+    url: https://fetlife.com/users/7943575
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
-
+    url: https://www.facebook.com/groups/157254071627329/
+  - title: instagram
+    url: https://www.instagram.com/underworldfetish/
+    
 # Build settings
 markdown: kramdown
 permalink: pretty
