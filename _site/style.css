@@ -6848,7 +6848,7 @@ a:hover, a:focus {
 }
 
 .navbar-custom {
-    padding-top: 1px;
+    padding-bottom; 10px;
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255, 255, 255, .3);
     text-transform: uppercase;
@@ -6857,8 +6857,13 @@ a:hover, a:focus {
 }
 
 .navbar-brand img {
-    width: 10%;
-    padding-bottom: 10%;
+    width: 9%;
+}
+
+@media(max-width: 767px){
+    .navbar-brand img{
+        display: none;
+    }
 }
 
 .navbar-custom .navbar-brand {
@@ -6933,6 +6938,10 @@ a:hover, a:focus {
     -o-background-size: cover;
 }
 
+.intro-body img{
+    display: none;
+}
+
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
@@ -6951,7 +6960,7 @@ a:hover, a:focus {
         height: 100%;
         padding: 0;
     }
-    .intro .intro-body .brand-heading {
+    .intro .intro-body .brand-heading{
         font-size: 100px;
     }
     .intro .intro-body .intro-text {
