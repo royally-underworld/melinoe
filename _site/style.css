@@ -6827,15 +6827,14 @@ p {
 }
 
 a {
-    color: {
-            {
-            site.color.links
-        }
-    }
-    ;
+    color: #219ab3;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+}
+
+path {
+    color: white;
 }
 
 a:hover, a:focus {
@@ -7083,30 +7082,15 @@ a:hover, a:focus {
 
 .btn-default {
     border: 1px solid #219ab3;
-    color: {
-            {
-            site.color.links
-        }
-    }
-    ;
+    color: #219ab3;
     background-color: transparent;
 }
 
 .btn-default:hover, .btn-default:focus {
-    border: 1px solid {
-            {
-            site.color.links
-        }
-    }
-    ;
+    border: 1px solid #219ab3;
     outline: 0;
     color: #000000;
-    background-color: {
-            {
-            site.color.links
-        }
-    }
-    ;
+    background-color: #219ab3};
 }
 
 ul.banner-social-buttons {
