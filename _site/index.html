@@ -16,6 +16,9 @@
     <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
+    <!--slick Image Slider-->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -126,11 +129,19 @@
         </div>
     </div>
 </section>
-    <!-- Map Section -->
+    <!-- Photo Gallery Section -->
 <section id="photos" class="container content-section text-center">
     <div class="row">
-        <h2>Photo Gallery</h2>
-        <p>somehow, some photos will display here.</p>
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>Photo Gallery</h2>
+            <p>somehow, some photos will display here.</p>
+            <div class="photos_slick"></div>
+                <div><img src="/assets/photo_gallery/photo1.jpg" width="10%"></div>
+                <div><img src="/assets/photo_gallery/photo2.jpg" width="10%"></div>
+                <div><img src="/assets/photo_gallery/photo3.jpg" width="10%"></div>
+                <div><img src="/assets/photo_gallery/photo4.png" width="10%"></div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -166,7 +177,15 @@
         </div>
     </footer>
 
-     <!-- jQuery Version 1.11.0 -->
+         <!--slick image slider
+     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+     <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.photo_slick').slick();
+}   </script>
+ <!-- jQuery Version 1.11.0 -->
     <script src="/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -175,10 +194,11 @@
     <!-- Plugin JavaScript -->
     <script src="/js/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
     <!-- Custom Theme JavaScript -->
     <script src="/js/grayscale.js"></script>
+
+
+
+
     </body>
 </html>

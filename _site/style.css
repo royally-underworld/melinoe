@@ -6833,10 +6833,6 @@ a {
     transition: all .2s ease-in-out;
 }
 
-path {
-    color: white;
-}
-
 a:hover, a:focus {
     text-decoration: none;
     color: #11505d;
