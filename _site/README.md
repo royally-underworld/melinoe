@@ -1,13 +1,6 @@
-Grayscale Jekyll theme
-=========================
+underworld fetish nights informational website
 
-Jekyll theme based on [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/)
-
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/grayscale-theme)
-
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/grayscale-theme/master/screenshot.png)
-
-=========
-For more details, read the [documentation](http://jekyllrb.com/)
+## To DO
+1. Photo Gallery
+2. Event listing
+3. About Us - BIOs 
