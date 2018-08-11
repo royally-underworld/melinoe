@@ -4,12 +4,15 @@
         <div class="col-lg-8 col-lg-offset-2">
             <h2>Photo Gallery</h2>
             <p>somehow, some photos will display here.</p>
-            <div class="photos_slick"></div>
-                <div><img src="/assets/photo_gallery/photo1.jpg" width="10%"></div>
-                <div><img src="/assets/photo_gallery/photo2.jpg" width="10%"></div>
-                <div><img src="/assets/photo_gallery/photo3.jpg" width="10%"></div>
-                <div><img src="/assets/photo_gallery/photo4.png" width="10%"></div>
-            </div>
+            <div id="pixlee_container"></div>
+            <script type="text/javascript">
+                window.PixleeAsyncInit = function() 
+                {
+                    Pixlee.init({apiKey:'jjbxUInIIxqX1ZecX1W'});
+                    Pixlee.addSimpleWidget({widgetId:'7526'});
+                };
+                    </script>
+                <script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
         </div>
     </div>
 </section>
