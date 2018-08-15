@@ -1628,7 +1628,8 @@ a.bg-danger:hover {
 
 ol, ul {
     margin-top: 0;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    padding: 0;
 }
 
 ol ol, ol ul, ul ol, ul ul {
@@ -7033,6 +7034,15 @@ a:hover, a:focus {
     }
 }
 
+@media(max-width: 767px){
+    .btn-circle {
+        display: none;
+    }
+    .animated {
+        display: none;
+    }
+}
+
 .content-section {
     padding-top: 100px;
 }
@@ -7075,7 +7085,6 @@ a:hover, a:focus {
 .next-event li:hover button a {
     color: black;
 }
-
 
 .download-section {
     width: 100%;
