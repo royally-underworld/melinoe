@@ -7055,6 +7055,7 @@ a:hover, a:focus {
     background-color: black;
     padding: 30px 10px 30px 10px;
     transition: all 0.2s;
+    margin-top: 5px;
 }
 
 .next-event li button a {
@@ -7070,14 +7071,29 @@ a:hover, a:focus {
     font-size: 15px;
   }
 
-#faerie:hover {
+.rsvp {
+    margin-top: 10px;
+}
+
+.rsvp:hover {
     font-weight: bold;
-    font-stretch: expanded;
+    background-color: black;
     color: white;
-    background: url("https://bit.ly/2w7srCi") no-repeat top center scroll;
+}
+
+#faerie:hover {
+    color: white;
+    background: url("https://bit.ly/2w7srCi") no-repeat top left scroll;
+}
+
+.next-event p {
+    padding: 0px 15px;
+    font-size: 16px;
 }
 
 .next-event li:hover button, .prev-events li:hover button{
+    font-stretch: expanded;
+    letter-spacing: 1px;
     background: #fff;
     color: #000;
   }
