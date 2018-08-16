@@ -7081,10 +7081,38 @@ a:hover, a:focus {
     color: white;
 }
 
+/* Event Backgrounds */
+
+.tbd:hover {
+    color: white;
+    background: slategray;    
+}
+
 #faerie:hover {
     color: white;
     background: url("https://bit.ly/2w7srCi") no-repeat top left scroll;
 }
+
+#glow2:hover {
+    color: white;
+    background: slategray;
+}
+
+#medic:hover {
+    color: white;
+    background: slategray;
+}
+
+#crimson:hover {
+    color: white;
+    background: slategray;
+}
+
+#glow:hover {
+    color: white;
+    background: slategray;
+}
+/* End Event Backgrounds */
 
 .next-event p {
     padding: 0px 15px;
