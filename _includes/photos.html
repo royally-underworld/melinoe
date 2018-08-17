@@ -3,19 +3,7 @@
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <h2>Photo Gallery</h2>
-            <p class="image-gallery">
-                {% for file in site.static_files %}
-                    {% if file.path contains include.folder %}
-                        {% if file.extname == '.jpg' 
-                            or file.extname == '.jpeg' 
-                            or file.extname == '.JPG' 
-                            or file.extname == '.JPEG' %}
-                            <a href="{{ file.path }}">
-                                <img src="{{ file.path }}" width="10%" height="10%" overflow="hidden"/>
-                            </a>
-                        {% endif %}
-                    {% endif %}
-                {% endfor %}
+
             </p>
         </div>
     </div>
