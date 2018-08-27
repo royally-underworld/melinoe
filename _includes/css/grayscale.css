@@ -161,6 +161,11 @@ a:hover, a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.brand-sub-heading {
+    font-size: 28px;
 }
 
 .intro .intro-body .intro-text {
@@ -174,6 +179,10 @@ a:hover, a:focus {
     }
     .intro .intro-body .brand-heading{
         font-size: 100px;
+        margin-bottom: 0px;
+    }
+    .brand-sub-heading {
+        font-size: 60px;
     }
     .intro .intro-body .intro-text {
         font-size: 25px;
@@ -273,7 +282,7 @@ a:hover, a:focus {
     margin-top: 5px;
 }
 
-.next-event li button a {
+.next-event li button a, .prev-events li button a {
     color: white;
 }
 
@@ -303,9 +312,14 @@ a:hover, a:focus {
     background: slategray;    
 }
 
+#vampire:hover {
+    color: white;
+    background: url("{{ "/img/vampire_den.jpg"  | prepend: site.baseurl }}") no-repeat center center scroll;
+}
+
 #faerie:hover {
     color: white;
-    background: url("https://bit.ly/2w7srCi") no-repeat top left scroll;
+    background: url("{{ "/img/faerie_forest.jpg"  | prepend: site.baseurl }}") no-repeat top left scroll;
 }
 
 #glow2:hover {

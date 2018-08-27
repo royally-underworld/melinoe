@@ -2225,7 +2225,8 @@ pre code {
         width: 75%
     }
     .col-md-8 {
-        width: 66.66666667%
+        width: 66.66666667%,
+        margin-left: 0;
     }
     .col-md-7 {
         width: 58.33333333%
@@ -2357,7 +2358,7 @@ pre code {
         margin-left: 25%
     }
     .col-md-offset-2 {
-        margin-left: 16.66666667%
+        margin-left: 16.67%
     }
     .col-md-offset-1 {
         margin-left: 8.33333333%
@@ -6946,6 +6947,11 @@ a:hover, a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.brand-sub-heading {
+    font-size: 28px;
 }
 
 .intro .intro-body .intro-text {
@@ -6959,6 +6965,10 @@ a:hover, a:focus {
     }
     .intro .intro-body .brand-heading{
         font-size: 100px;
+        margin-bottom: 0px;
+    }
+    .brand-sub-heading {
+        font-size: 60px;
     }
     .intro .intro-body .intro-text {
         font-size: 25px;
@@ -7058,7 +7068,7 @@ a:hover, a:focus {
     margin-top: 5px;
 }
 
-.next-event li button a {
+.next-event li button a, .prev-events li button a {
     color: white;
 }
 
@@ -7088,9 +7098,14 @@ a:hover, a:focus {
     background: slategray;    
 }
 
+#vampire:hover {
+    color: white;
+    background: url("/img/vampire_den.jpg") no-repeat center center scroll;
+}
+
 #faerie:hover {
     color: white;
-    background: url("https://bit.ly/2w7srCi") no-repeat top left scroll;
+    background: url("/img/faerie_forest.jpg") no-repeat top left scroll;
 }
 
 #glow2:hover {
