@@ -7052,7 +7052,50 @@ a:hover, a:focus {
         display: none;
     }
 }
+ul.staff {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    padding: 10px;
+    border: slategrey solid 1px;
+}
 
+ul.staff2 {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    padding: 10px;
+    border: slategrey solid 1px;
+}
+
+.staff li, .staff2 li {
+    font-family: Helvetica, sans-serif;
+    font-size: 10pt;
+    list-style: none;
+}
+
+.staff li img {
+    width: 90%;
+    align-content: center;
+}
+
+.staff h4, .staff2 h4 {
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+@media(max-width: 767px){
+        ul.staff, ul.staff2 {
+            -webkit-column-count: 1;
+            -moz-column-count: 1;
+            column-count: 1;
+        }
+        .staff li img {
+            width: 60%;
+        }
+    }
+}
 .content-section {
     padding-top: 100px;
 }
@@ -7099,13 +7142,15 @@ a:hover, a:focus {
 }
 
 #vampire:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url("/img/vampire-den.jpg") center left no-repeat scroll;
     color: white;
-    background: url("/img/vampire_den.jpg") no-repeat center center scroll;
+    background-size: cover;
 }
 
 #faerie:hover {
     color: white;
-    background: url("/img/faerie_forest.jpg") no-repeat top left scroll;
+    background: linear-gradient( rgba(0, 0, 0, 0.45),  rgba(0, 0, 0, 0.45)), url("/img/faerie_forest.jpg") no-repeat center left scroll;
+    background-size: cover;
 }
 
 #glow2:hover {
@@ -7141,7 +7186,7 @@ a:hover, a:focus {
     color: #000;
   }
 
-.next-event li:hover button a {
+.next-event li:hover button a, .prev-events li:hover button a {
     color: black;
 }
 
