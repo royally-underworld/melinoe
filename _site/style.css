@@ -1838,7 +1838,8 @@ pre code {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
+    margin-bottom: 10px
 }
 
 .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
@@ -2517,7 +2518,7 @@ pre code {
         margin-left: 25%
     }
     .col-lg-offset-2 {
-        margin-left: 16.66666667%
+        margin-left: 16.66666667%;
     }
     .col-lg-offset-1 {
         margin-left: 8.33333333%
@@ -7052,12 +7053,25 @@ a:hover, a:focus {
         display: none;
     }
 }
+
+.faq {
+    background: linear-gradient( rgba(34, 34, 34, 0.8),  rgba(34, 34, 34, 0.8))
+}
+
+.background {
+    padding: 10px 0px 5px;
+    margin-bottom: 25px;
+    background: linear-gradient( rgba(34, 34, 34, 0.8),  rgba(34, 34, 34, 0.8))
+}
+
 ul.staff {
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
     padding: 10px;
+    margin-bottom: 20px;
     border: slategrey solid 1px;
+    background: linear-gradient( rgba(0, 0, 0, 0.45),  rgba(0, 0, 0, 0.45))
 }
 
 ul.staff2 {
@@ -7065,13 +7079,16 @@ ul.staff2 {
     -moz-column-count: 2;
     column-count: 2;
     padding: 10px;
+    margin-bottom: 20px;
     border: slategrey solid 1px;
+    background: linear-gradient( rgba(0, 0, 0, 0.45),  rgba(0, 0, 0, 0.45))
 }
 
 .staff li, .staff2 li {
     font-family: Helvetica, sans-serif;
-    font-size: 10pt;
+    font-size: 12pt;
     list-style: none;
+    letter-spacing: 0.5px;
 }
 
 .staff li img {
@@ -7079,7 +7096,7 @@ ul.staff2 {
     align-content: center;
 }
 
-.staff h4, .staff2 h4 {
+.staff h3, .staff h4, .staff2 h4 {
     padding-top: 10px;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -7094,8 +7111,17 @@ ul.staff2 {
         .staff li img {
             width: 60%;
         }
+        .staff li, .staff2 li {
+            font-size: 10pt;
+        }
+        .staff h3, .staff h4, .staff2 h4 {
+            padding-top: 10px;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
     }
 }
+
 .content-section {
     padding-top: 100px;
 }
@@ -7190,11 +7216,25 @@ ul.staff2 {
     color: black;
 }
 
-.download-section {
+.event-section {
     width: 100%;
     padding: 50px 0;
+    margin: 50px 0;
     color: #fff;
-    background: url("/img/bg_section.jpg") no-repeat top center scroll;
+    background: linear-gradient( rgba(0, 0, 0, 0.45),  rgba(0, 0, 0, 0.45)), url("/img/bg_section.jpg") no-repeat top center scroll;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.staff-section {
+    width: 100%;
+    padding: 50px 0;
+    margin-top: 20px;
+    color: #fff;
+    background: linear-gradient( rgba(0, 0, 0, 0.45),  rgba(0, 0, 0, 0.45)), url("/img/downloads-bg.jpg") no-repeat top center scroll;
     background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -7204,9 +7244,9 @@ ul.staff2 {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
+        padding-top: 100px;
     }
-    .download-section {
+    .event-section {
         padding: 100px 0;
     }
     #photos {
