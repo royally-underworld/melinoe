@@ -143,8 +143,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     border: 0
 }
 
-input {
-    line-height: normal
+input, textarea {
+    line-height: normal;
+    width: 55%;
+    background: #efefef;
 }
 
 input[type=checkbox], input[type=radio] {
@@ -2702,10 +2704,11 @@ legend {
 }
 
 label {
-    display: inline-block;
+    display: block;
     max-width: 100%;
     margin-bottom: 5px;
-    font-weight: 700
+    margin-top: 20px;
+    letter-spacing: 2px;
 }
 
 input[type=search] {
@@ -6821,6 +6824,40 @@ p {
     line-height: 1.5;
 }
 
+input, textarea {
+    font-size: 10pt;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    color:#3a3a3a;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #3a3a3a;
+}
+
+form {
+    padding: 10px 0 20px;
+    background: linear-gradient( rgba(34, 34, 34, 0.8),  rgba(34, 34, 34, 0.8));
+    width: 75%;
+    margin: 0 auto;
+}
+
+#submit {
+    width:127px;
+    height:38px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    text-transform: uppercase;
+    font-family: "Assassin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+	#submit:hover {
+	    opacity:.9;
+	}
+
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
@@ -7277,6 +7314,10 @@ ul.staff2 {
     background-color: #219ab3};
 }
 
+input, textarea {
+    width: 75%;
+
+}
 ul.banner-social-buttons {
     margin-top: 0;
 }
