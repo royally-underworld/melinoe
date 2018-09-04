@@ -3,22 +3,31 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2" id="contact">
                 <h2>Contact</h2>
-                    <form method="post" action="/contact.php">
-                        <label>NAME</label>
-                        <input name="name" placeholder="your name here">
-
-                        <label>EMAIL</label>
-                        <input name="email" type="email" placeholder="your email here">
-
-                        <label>MESSAGE</label>
-                        <textarea name="message" placeholder="write a brief message here"></textarea>
-                        <br>
-
-                        <input id="submit" name="submit" type="submit" value="Submit" placeholder="SUBMIT">
-                    </form>
+                <p>Use the form below to send us a message, or you can email us directly!<br>
+                    We want to hear all of your naughty thoughts. <br><br>
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="mailto:{{ site.email }}" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email Us</span></a>
+                        </li>
+                    </ul>
+                    </p>
+                    <form action="https://getsimpleform.com/messages?form_api_token=08a9ab69d0cbd4febce5b6090af1d610" method="post";>
+                        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                            <label>NAME</label>
+                            <input name="name" placeholder="your name here">
+    
+                            <label>EMAIL *</label>
+                            <input name="email" type="email" placeholder="your email here" required>
+    
+                            <label>MESSAGE *</label>
+                            <textarea name="message" placeholder="write a brief message here" required></textarea>
+                            <br>
+    
+                            <input id="submit" name="submit" type="submit" value="Submit" placeholder="SUBMIT">
+                      </form>
 
                 
-                <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+                    <p>Find us on social media below!</p>
 
                 <ul class="list-inline banner-social-buttons">
                     <li>
