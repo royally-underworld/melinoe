@@ -7217,13 +7217,13 @@ a:hover, a:focus {
     transition: 0.4s;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
 .active, .question:hover {
     background-color: #000;
 }
 
-/* Style the accordion panel. Note: hidden by default */
-.answer {
+
+.answer, .lastYearEventsList {
     padding: 0 18px;
     background-color: #000;
     max-height: 0;
@@ -7235,8 +7235,6 @@ a:hover, a:focus {
     text-align: start;
     font-size: 16px;
 }
-
-/* staff styling section */
 
 .staff-section {
     width: 100%;
