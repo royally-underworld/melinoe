@@ -351,14 +351,14 @@ a:hover, a:focus {
 }
 
 #vampire:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url("{{ "/img/vampire-den.jpg"  | prepend: site.baseurl }}") center center no-repeat scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url("https://image.ibb.co/hYvu1e/vampire_den.jpg") center center no-repeat scroll;
     color: white;
     background-size: cover;
 }
 
 #faerie:hover {
     color: white;
-    background: linear-gradient( rgba(0, 0, 0, 0.45),  rgba(0, 0, 0, 0.45)), url("{{ "/img/faerie_forest.jpg"  | prepend: site.baseurl }}") no-repeat center center scroll;
+    background: linear-gradient( rgba(0, 0, 0, 0.45),  rgba(0, 0, 0, 0.45)), url("https://image.ibb.co/h58E1e/faerie_forest.jpg") no-repeat center center scroll;
     background-size: cover;
 }
 
