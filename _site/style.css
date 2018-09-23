@@ -6991,16 +6991,15 @@ a:hover, a:focus {
 .btn-default {
     border: 1px solid #900;
     color: #900;
-    background-color: transparent;
+    background-color: transparent
 }
 
 .btn-default:hover, .btn-default:focus {
     border: 1px solid #900;
     outline: 0;
     color: #000000;
-    background-color: #900};
+    background-color: #900;
 }
-
 
 .btn-circle {
     width: 70px;
@@ -7139,6 +7138,13 @@ a:hover, a:focus {
     color: white;
     background: slategray;    
 }
+
+#occult:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url("https://image.ibb.co/j9qcMe/41985082_10156332712126928_2272096132614062080_o.jpg") center center no-repeat scroll;
+    color: white;
+    background-size: cover;
+}
+
 
 #vampire:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url("https://image.ibb.co/hYvu1e/vampire_den.jpg") center center no-repeat scroll;
@@ -7387,7 +7393,7 @@ form {
     margin: 0 auto 20px;
 }
 
-#closebtn {
+/*#closebtn {
     margin-left: 15px;
     color: white;
     font-weight: bold;
@@ -7400,7 +7406,7 @@ form {
 
 #closebtn:hover {
     color: black;
-}
+}*/
 
 /* social media buttons */
 
