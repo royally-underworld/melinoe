@@ -7140,14 +7140,19 @@ a:hover, a:focus {
 }
 
 #occult:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url("https://image.ibb.co/j9qcMe/41985082_10156332712126928_2272096132614062080_o.jpg") center center no-repeat scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)), 
+        url("https://image.ibb.co/j9qcMe/41985082_10156332712126928_2272096132614062080_o.jpg") 
+        center center no-repeat scroll;
     color: white;
     background-size: cover;
 }
 
-
 #vampire:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url("https://image.ibb.co/hYvu1e/vampire_den.jpg") center center no-repeat scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)),
+        url("https://image.ibb.co/hYvu1e/vampire_den.jpg") 
+        center center no-repeat scroll;
     color: white;
     background-size: cover;
 }
