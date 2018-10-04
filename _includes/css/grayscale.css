@@ -297,7 +297,7 @@ a:hover, a:focus {
 }
 
 .background {
-    padding: 10px 0px 5px;
+    padding: 10px 5px 5px;
     margin-bottom: 25px;
     background: linear-gradient( rgba(34, 34, 34, 0.8),  rgba(34, 34, 34, 0.8))
 }
@@ -455,6 +455,11 @@ a:hover, a:focus {
 .answer p {
     text-align: start;
     font-size: 16px;
+    color: grey;
+}
+
+.answer b {
+    color: white;
 }
 
 .staff-section {
