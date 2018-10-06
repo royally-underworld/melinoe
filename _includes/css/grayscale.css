@@ -425,6 +425,9 @@ a:hover, a:focus {
 
 /* faq styling section */
 
+
+
+
 .question {
     background: linear-gradient( rgba(0, 0, 0, 0.45),  rgba(0, 0, 0, 0.45));
     color: #900;
@@ -461,6 +464,24 @@ a:hover, a:focus {
 .answer b {
     color: white;
 }
+
+b.blue {
+    color: #3c78d8;
+}
+
+b.green {
+    color: #6d9539;
+}
+
+b.yellow {
+    color: #c27a2f;
+}
+
+b.red {
+    color: #980000;
+}
+
+/* staff section styling */
 
 .staff-section {
     width: 100%;
