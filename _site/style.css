@@ -7213,10 +7213,28 @@ a:hover, a:focus {
     -o-background-size: cover;
 }
 
+/* rules styling section */
+
+.rules p {
+    font-size: 18pt;
+    text-align: left;
+    padding: 0 40px;
+}
+
+p.dress {
+    font-size: 16pt;
+}
+
+#trafficlights h3, h2 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#trafficlights p {
+    padding: 0 20px;
+}
+
 /* faq styling section */
-
-
-
 
 .question {
     background: linear-gradient( rgba(0, 0, 0, 0.45),  rgba(0, 0, 0, 0.45));
@@ -7249,6 +7267,14 @@ a:hover, a:focus {
     text-align: start;
     font-size: 16px;
     color: grey;
+    
+}
+
+.answer ol {
+    padding-left: 40px;
+    text-align: left;
+    font-size: 16px;
+    color: grey;
 }
 
 .answer b {
@@ -7264,7 +7290,7 @@ b.green {
 }
 
 b.yellow {
-    color: #c27a2f;
+    color: #d9cb23;
 }
 
 b.red {
@@ -7307,18 +7333,26 @@ ul.staff2 {
 .staff li, .staff2 li {
     font-family: Helvetica, sans-serif;
     font-size: 12pt;
+    color: rgba(255, 255, 255, .3);
     list-style: none;
     letter-spacing: 0.5px;
+}
+
+.staff li h3, .staff li h4, .staff2 li h4 {
+    font-style: oblique;
+    color: white;
 }
 
 .staff li img {
     width: 90%;
     align-content: center;
+    padding: 10px 0;
 }
 
 .staff2 li img {
     width: 60%;
     align-content: center;
+    padding: 10px 0;
 }
 
 .staff h3, .staff h4, .staff2 h4 {
