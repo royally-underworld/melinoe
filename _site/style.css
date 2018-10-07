@@ -7215,6 +7215,11 @@ a:hover, a:focus {
 
 /* rules styling section */
 
+.rules h2, .rules h3, .rules h4 {
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+}
+
 .rules p {
     font-size: 18pt;
     text-align: left;
@@ -7224,6 +7229,19 @@ a:hover, a:focus {
 p.dress {
     font-size: 16pt;
 }
+
+.areas li, .areas p {
+    font-family: Helvetica, sans-serif;
+    font-size: 12pt;
+    list-style: none;
+    letter-spacing: 0.5px;
+}
+
+.areas h2, .areas h3, .areas h4 {
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+}
+
 
 #trafficlights h3, h2 {
     padding-bottom: 0;
