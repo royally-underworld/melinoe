@@ -10,3 +10,17 @@
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/grayscale.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/underworld.js" | prepend: site.baseurl }}"></script>
+
+                  
+    <script src="js/lightslider.js"></script>
+    <script type="text/JavaScript">
+        $(document).ready(function() {
+            $('#lightSlider').lightSlider({
+                item:1,
+                loop:true,
+                slideMove:1,
+                easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+                speed:600,
+            }); 
+        });
+        </script>

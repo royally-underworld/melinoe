@@ -394,7 +394,7 @@ a:hover, a:focus {
 }
 /* End Event Backgrounds */
 
-.next-event p {
+.next-event p, .prev-events p {
     padding: 0px 15px;
     font-size: 16px;
 }
@@ -440,23 +440,9 @@ a:hover, a:focus {
     letter-spacing: 0.5px;
 }
 
-.areas li, .areas p {
-    font-family: Helvetica, sans-serif;
-    font-size: 12pt;
-    list-style: none;
-    letter-spacing: 0.5px;
-}
-
-.areas li {
-    float: left;
-    width: 50%;
-    padding: 5px;
-}
-
-.areas::after {
-    content: "";
-    clear: both;
-    display: table;
+.areas p {
+    color: white;
+    /*color: rgba(255, 255, 255, .5);*/
 }
 
 #trafficlights h3, h2 {
@@ -527,8 +513,8 @@ b.yellow {
     color: #d9cb23;
 }
 
-b.red {
-    color: #980000;
+.red {
+    color: #900000;
 }
 
 /* staff section styling */
