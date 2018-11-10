@@ -6927,7 +6927,7 @@ a:hover, a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 150px 0;
     text-align: center;
     color: #fff;
     background: url("/img/astaroth-bg.jpg") no-repeat top center scroll;
@@ -7224,7 +7224,7 @@ a:hover, a:focus {
 }
 
 .rules p {
-    font-size: 16pt;
+    font-size: 14pt;
     text-align: left;
     padding: 0 40px;
     letter-spacing: 0.5px;
@@ -7232,6 +7232,10 @@ a:hover, a:focus {
 
 .areas p {
     color: white;
+    font-size: 14pt;
+    width: 80%;
+    padding-bottom: 10px;
+    margin: 0 auto;
     /*color: rgba(255, 255, 255, .5);*/
 }
 
@@ -7550,6 +7554,7 @@ body {
     overflow: hidden;
     margin: 0;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 .lSSlideWrapper {
     max-width: 100%;
