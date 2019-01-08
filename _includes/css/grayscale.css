@@ -320,62 +320,89 @@ a:hover, a:focus {
     font-size: 12pt;
     list-style: none;
     text-align: center;
-    background: linear-gradient( rgba(255, 255, 255, .1), rgba(255, 255, 255, .1));
     background-color: black;
-    padding: 30px 10px 30px 10px;
+    padding: 30px 10px 0px 10px;
     transition: all 0.2s;
     margin-top: 5px;
 }
 
 .next-event li button a, .prev-events li button a {
-    color: white;
+    color: black;
 }
 
-
 .next-event button, .prev-events button {
-    background: #000;
+    font-stretch: expanded;
+    letter-spacing: 1px;
+    background: #fff;
+    color: #000;
     border: none;
     border-radius: 5px;
     padding: 8px 14px;
     font-size: 15px;
-  }
-
-.rsvp {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
-.rsvp:hover {
-    font-weight: bold;
-    background-color: black;
+button.coming-soon {
+    background: linear-gradient( rgba(255, 255, 255, .1), rgba(255, 255, 255, .1));
     color: white;
 }
 
-/* Event Backgrounds */
+.next-event p, .prev-events p {
+    padding: 0px 15px;
+    font-size: 16px;
+}
+
+.event-section {
+    width: 100%;
+    padding: 50px 0;
+    margin: 50px 0;
+    color: lightgrey;
+   /* background: linear-gradient( rgba(0, 0, 0, 0.45),  rgba(0, 0, 0, 0.45)), url("{{ "/img/bg_section.jpg" | prepend: site.baseurl }}") no-repeat top center scroll;
+   background: linear-gradient( rgba(255, 255, 255, .1), rgba(255, 255, 255, .1));*/
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+li.tbd {
+    background: linear-gradient( rgba(255, 255, 255, .1), rgba(255, 255, 255, .1));
+    padding-bottom: 30px;
+}
 
 .tbd:hover {
     color: white;
     background: slategray;    
 }
 
-#unleashed:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.45),
-        rgba(0, 0, 0, 0.45)), 
-        url("https://image.ibb.co/mVr1vL/unleashed.jpg") 
-        center center no-repeat scroll;
+.event-container {
+    position: relative;
+    text-align: center;
     color: white;
-    background-size: cover;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
-#occult:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.45),
-        rgba(0, 0, 0, 0.45)), 
-        url("https://image.ibb.co/j9qcMe/41985082_10156332712126928_2272096132614062080_o.jpg") 
-        center center no-repeat scroll;
-    color: white;
-    background-size: cover;
+.event-container img {
+    max-width: 100%;
 }
 
-#vampire:hover {
+.event-text {
+    position: relative;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
+
+@media(min-width: 620px){
+    .event-text {
+        transform: translate(-50%, -50%);
+    }
+}
+/* Event Backgrounds */
+
+/*#vampire:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.45),
         rgba(0, 0, 0, 0.45)),
         url("https://image.ibb.co/hYvu1e/vampire_den.jpg") 
@@ -408,38 +435,9 @@ a:hover, a:focus {
 #glow:hover {
     color: white;
     background: slategray;
-}
+}*/
+
 /* End Event Backgrounds */
-
-.next-event p, .prev-events p {
-    padding: 0px 15px;
-    font-size: 16px;
-}
-
-.next-event li:hover button, .prev-events li:hover button{
-    font-stretch: expanded;
-    letter-spacing: 1px;
-    background: #fff;
-    color: #000;
-  }
-
-.next-event li:hover button a, .prev-events li:hover button a {
-    color: black;
-}
-
-.event-section {
-    width: 100%;
-    padding: 50px 0;
-    margin: 50px 0;
-    color: lightgrey;
-   /* background: linear-gradient( rgba(0, 0, 0, 0.45),  rgba(0, 0, 0, 0.45)), url("{{ "/img/bg_section.jpg" | prepend: site.baseurl }}") no-repeat top center scroll;
-   background: linear-gradient( rgba(255, 255, 255, .1), rgba(255, 255, 255, .1));*/
-    background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
 /* rules styling section */
 
