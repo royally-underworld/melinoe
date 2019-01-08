@@ -7147,8 +7147,6 @@ button.coming-soon {
     padding: 50px 0;
     margin: 50px 0;
     color: lightgrey;
-   /* background: linear-gradient( rgba(0, 0, 0, 0.45),  rgba(0, 0, 0, 0.45)), url("/img/bg_section.jpg") no-repeat top center scroll;
-   background: linear-gradient( rgba(255, 255, 255, .1), rgba(255, 255, 255, .1));*/
     background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
