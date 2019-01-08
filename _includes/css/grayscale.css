@@ -400,44 +400,6 @@ li.tbd {
         transform: translate(-50%, -50%);
     }
 }
-/* Event Backgrounds */
-
-/*#vampire:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.45),
-        rgba(0, 0, 0, 0.45)),
-        url("https://image.ibb.co/hYvu1e/vampire_den.jpg") 
-        center center no-repeat scroll;
-    color: white;
-    background-size: cover;
-}
-
-#faerie:hover {
-    color: white;
-    background: linear-gradient( rgba(0, 0, 0, 0.45),  rgba(0, 0, 0, 0.45)), url("https://image.ibb.co/h58E1e/faerie_forest.jpg") no-repeat center center scroll;
-    background-size: cover;
-}
-
-#glow2:hover {
-    color: white;
-    background: slategray;
-}
-
-#medic:hover {
-    color: white;
-    background: slategray;
-}
-
-#crimson:hover {
-    color: white;
-    background: slategray;
-}
-
-#glow:hover {
-    color: white;
-    background: slategray;
-}*/
-
-/* End Event Backgrounds */
 
 /* rules styling section */
 
