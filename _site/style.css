@@ -7180,12 +7180,12 @@ li.tbd {
     position: relative;
     top: 70%;
     left: 50%;
-    transform: translate(-50%, -20%);
+    transform: translate(-50%, -30%);
 }
 
 @media(min-width: 620px){
     .event-text {
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -40%);
     }
 }
 
@@ -7322,7 +7322,7 @@ b.yellow {
 ul.staff {
     -webkit-column-count: 3;
     -moz-column-count: 3;
-    column-count: 3;
+    column-count: 3; 
     padding: 10px;
     margin-bottom: 20px;
     background: linear-gradient( rgba(0, 0, 0, 0.45),  rgba(0, 0, 0, 0.45))
