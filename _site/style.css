@@ -7111,9 +7111,10 @@ a:hover, a:focus {
     list-style: none;
     text-align: center;
     background-color: black;
-    padding: 30px 10px 0px 10px;
+    padding: 10px 10px 0px 10px;
     transition: all 0.2s;
     margin-top: 5px;
+    display: inline;
 }
 
 .next-event li button a, .prev-events li button a {
@@ -7153,6 +7154,120 @@ button.coming-soon {
     background-size: cover;
     -o-background-size: cover;
 }
+
+#stardust {
+    padding: 20px;
+    background-image: url("/assets/event-bg/stardust-bg.jpg");
+    background-position: top center;
+    background-size: cover;
+    font-size: 14pt;
+    color: white;
+}
+
+#opulence {
+    padding: 20px;
+    background-image: url("/assets/event-bg/opulence_bg.jpg");
+    background-position: top center;
+    background-size: cover;
+    font-size: 14pt;
+    color: white;
+}
+
+#unleashed {
+    padding: 20px;
+    background-image: url("/assets/event-bg/unleashed.jpg");
+    background-position: top center;
+    background-size: cover;
+    font-size: 14pt;
+    color: white;
+}
+
+#occult {
+    padding: 20px;
+    background-image: url("/assets/event-bg/wicked_hallow.jpg");
+    background-position: top center;
+    background-size: cover;
+    font-size: 14pt;
+    color: white;
+}
+
+#vampire {
+    padding: 20px;
+    background-image: url("/assets/event-bg/vampire_den.jpg");
+    background-position: top center;
+    background-size: cover;
+    font-size: 14pt;
+    color: white;
+}
+
+#faerie {
+    padding: 20px;
+    background-image: url("/assets/event-bg/faerie_forest.jpg");
+    background-position: top center;
+    background-size: cover;
+    font-size: 14pt;
+    color: white;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 10%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .event-modal-content {
+    background-color: black;
+    margin: 15% auto; /* 15% from the top and centered */
+    width: 40%; /* Could be more or less, depending on screen size */
+    animation-name: animatetop;
+    box-shadow: 0 4px 4px 0 rgba(34, 34, 34, 0.8),0 4px 4px 0 rgba(34, 34, 34, 0.8);
+    animation-duration: 0.4s;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .event-modal-content img {
+      max-width: 100%;
+  }
+
+  @media(max-width: 767px){
+    .event-modal-content {
+        width: 60%;
+    }
+}
+
+  @keyframes animatetop {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+  }
+
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
 
 li.tbd {
     background: linear-gradient( rgba(255, 255, 255, .1), rgba(255, 255, 255, .1));
