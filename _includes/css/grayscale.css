@@ -436,7 +436,7 @@ button.coming-soon {
   /* Modal Content/Box */
   .event-modal-content {
     background-color: black;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 4% auto; /* 15% from the top and centered */
     width: 40%; /* Could be more or less, depending on screen size */
     animation-name: animatetop;
     box-shadow: 0 4px 4px 0 rgba(34, 34, 34, 0.8),0 4px 4px 0 rgba(34, 34, 34, 0.8);
@@ -444,7 +444,7 @@ button.coming-soon {
     position: relative;
     text-align: center;
     color: white;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
     padding-bottom: 0px;
   }
 
@@ -469,6 +469,7 @@ button.coming-soon {
     float: right;
     font-size: 28px;
     font-weight: bold;
+    padding: 5px;
   }
   
   .close:hover,
@@ -476,6 +477,7 @@ button.coming-soon {
     color: black;
     text-decoration: none;
     cursor: pointer;
+    padding: 5px;
   }
 
 
